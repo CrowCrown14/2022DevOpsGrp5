@@ -5,9 +5,9 @@ sudo apt-get update
 sudo apt update
 
 echo "install jenkins"
-wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -*
+wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
 
-echo deb https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list*
+echo deb https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
 
 echo "apt-get update"
 sudo apt-get update
